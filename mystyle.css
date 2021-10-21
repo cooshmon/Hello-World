@@ -11,8 +11,7 @@ button:hover {
   background: rgb(200 200 200);
   cursor: pointer;
 }
-div {
-}
+
 * {
   font-family: sans-serif;
   color: white;
@@ -24,11 +23,32 @@ body {
 a {
   text-decoration: none;
 }
-#item.darkmode {
+.item.darkmode {
   background: rgb(31, 31, 32);
   color: rgb(168, 212, 248);
 }
 
-#item.darkmode button {
+.item.darkmode button {
   color: white;
+}
+.item {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+body.darkmode {
+  background: rgb(28, 28, 29);
+  color: rgb(228, 227, 218);
+  --accent-color: red;
+}
+body.darkmode button {
+  color: rgb(228, 227, 218);
+}
+.item.big {
+  font-size: 2rem;
+}
+a.big {
+  font-size: 2rem;
+}
+body.darkmode button:hover {
+  background: rgb(143, 143, 143);
 }
